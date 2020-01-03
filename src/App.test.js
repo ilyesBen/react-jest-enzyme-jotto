@@ -8,5 +8,5 @@ const setup = () => {
 
 test("renders App component without error", () => {
   const wrapper = setup();
-  expect(wrapper.exists()).toBeTruthy();
+  expect(wrapper.length).toBe(1);
 });
